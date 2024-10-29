@@ -1,4 +1,8 @@
-# compose-particle-system
+# DISCLAIMER
+ALL CREDITS GOES TO [CuriousNikhil](https://github.com/CuriousNikhil).<br>
+This version is an adapted version for compose-multiplatform, directly forked from [CuriousNikhil](https://github.com/CuriousNikhil)'s original project [compose-particle-system](https://github.com/CuriousNikhil/compose-particle-system).
+-------
+# compose-multiplatform-particle-system
 
 Quarks is a lightweight particle system for Jetpack Compose. There are endless possibilities for creating generative art with this particle system. Here are few examples - 
 
@@ -9,10 +13,10 @@ Quarks is a lightweight particle system for Jetpack Compose. There are endless p
 
 ## Getting started
 
-1. Add the following dependencies in your `build.gradle` file
+1. Add the following dependencies in your `build.gradle.kts` file
 
-```groovy
-implementation "me.nikhilchaudhari:quarks:{latest-release-version}"
+```
+I haven't pushed this version to maven central as I don't want people to use this version instead of the original one.
 ```
 
 2. Call `CreateParticles(...)` composable function
